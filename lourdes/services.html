@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zeevt</title>
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+  <link rel="stylesheet" href="css/jquery.mobile-1.4.2.min.css">
+  <link rel="stylesheet" href="css/jquery.dataTables.css">
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="js/jquery.mobile-1.4.2.min.js"></script>
+  <script src="js/jquery.dataTables.min.js"></script>
+  <script src="script.js"></script>
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+</head>
+<body>
+<div data-role="page" data-theme="a">
+  <div data-role="panel" id="mypanel">
+    <div data-role="controlgroup" data-mini="true">
+      <ul data-role="listview">
+        <li><a data-mini="true" href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="#mypanel">Flagship</a></li>
+        <li><a href="#mypanel">Doctors</a></li>
+        <li><a href="#mypanel">Network</a></li>
+        <li><a href="#mypanel">Features</a></li>
+        <li><a href="#mypanel">Promos</a></li>
+        <li><a href="#my-header" data-rel="close">Close</a></li>
+      </ul>
+    </div>
+  </div>
+  <div data-role="header">
+    <div style="width:80%;padding:0 0 0 15px">
+      <label for="search-6" class="ui-hidden-accessible">Search:</label>
+      <input type="search" name="search-6" id="search-6" value="">
+    </div>
+    <div style="width:15%">
+      <a href="#mypanel" class="ui-btn ui-corner-all ui-icon-bars ui-btn-icon-notext ui-btn-right">Menu</a>
+    </div>
+  </div>
+  <div data-role="content">
+<div data-role="tabs" id="tabs">
+  <div data-role="navbar">
+    <ul>
+      <li><a href="#one" data-ajax="false">one</a></li>
+      <li><a href="#two" data-ajax="false">two</a></li>
+      <li><a href="ajax-content.html" data-ajax="false">three</a></li>
+      <li><a href="#three" data-ajax="false">three</a></li>
+    </ul>
+  </div>
+  <div id="one" class="ui-body-d ui-content">
+    <h1>First tab contents</h1>
+  </div>
+  <div id="two">
+			<table id="example" class="display" width="100%">
+
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Position</th>
+						<th>Office</th>
+						<th>Age</th>
+						<th>Start date</th>
+						<th>Salary</th>
+					</tr>
+				</thead>
+
+				<tfoot>
+					<tr>
+						<th>Name</th>
+						<th>Position</th>
+						<th>Office</th>
+						<th>Age</th>
+						<th>Start date</th>
+						<th>Salary</th>
+					</tr>
+				</tfoot>
+
+				<tbody>
+					<tr>
+						<td>Tiger Nixon</td>
+						<td>System Architect</td>
+						<td>Edinburgh</td>
+						<td>61</td>
+						<td>2011/04/25</td>
+						<td>$3,120</td>
+					</tr>
+					<tr>
+						<td>Garrett Winters</td>
+						<td>Director</td>
+						<td>Edinburgh</td>
+						<td>63</td>
+						<td>2011/07/25</td>
+						<td>$5,300</td>
+					</tr>
+					<tr>
+						<td>Ashton Cox</td>
+						<td>Technical Author</td>
+						<td>San Francisco</td>
+						<td>66</td>
+						<td>2009/01/12</td>
+						<td>$4,800</td>
+					</tr>
+					<tr>
+						<td>Cedric Kelly</td>
+						<td>Javascript Developer</td>
+						<td>Edinburgh</td>
+						<td>22</td>
+						<td>2012/03/29</td>
+						<td>$3,600</td>
+					</tr>
+					<tr>
+						<td>Jenna Elliott</td>
+						<td>Financial Controller</td>
+						<td>Edinburgh</td>
+						<td>33</td>
+						<td>2008/11/28</td>
+						<td>$5,300</td>
+					</tr>
+					<tr>
+						<td>Brielle Williamson</td>
+						<td>Integration Specialist</td>
+						<td>New York</td>
+						<td>61</td>
+						<td>2012/12/02</td>
+						<td>$4,525</td>
+					</tr>
+					<tr>
+						<td>Herrod Chandler</td>
+						<td>Sales Assistant</td>
+						<td>San Francisco</td>
+						<td>59</td>
+						<td>2012/08/06</td>
+						<td>$4,080</td>
+					</tr>
+					<tr>
+						<td>Rhona Davidson</td>
+						<td>Integration Specialist</td>
+						<td>Edinburgh</td>
+						<td>55</td>
+						<td>2010/10/14</td>
+						<td>$6,730</td>
+					</tr>
+					<tr>
+						<td>Colleen Hurst</td>
+						<td>Javascript Developer</td>
+						<td>San Francisco</td>
+						<td>39</td>
+						<td>2009/09/15</td>
+						<td>$5,000</td>
+					</tr>
+					<tr>
+						<td>Sonya Frost</td>
+						<td>Software Engineer</td>
+						<td>Edinburgh</td>
+						<td>23</td>
+						<td>2008/12/13</td>
+						<td>$3,600</td>
+					</tr>
+					<tr>
+						<td>Jena Gaines</td>
+						<td>System Architect</td>
+						<td>London</td>
+						<td>30</td>
+						<td>2008/12/19</td>
+						<td>$5,000</td>
+					</tr>
+					<tr>
+						<td>Quinn Flynn</td>
+						<td>Financial Controller</td>
+						<td>Edinburgh</td>
+						<td>22</td>
+						<td>2013/03/03</td>
+						<td>$4,200</td>
+					</tr>
+					<tr>
+						<td>Charde Marshall</td>
+						<td>Regional Director</td>
+						<td>San Francisco</td>
+						<td>36</td>
+						<td>2008/10/16</td>
+						<td>$5,300</td>
+					</tr>
+					<tr>
+						<td>Haley Kennedy</td>
+						<td>Senior Marketing Designer</td>
+						<td>London</td>
+						<td>43</td>
+						<td>2012/12/18</td>
+						<td>$4,800</td>
+					</tr>
+					<tr>
+						<td>Tatyana Fitzpatrick</td>
+						<td>Regional Director</td>
+						<td>London</td>
+						<td>19</td>
+						<td>2010/03/17</td>
+						<td>$2,875</td>
+					</tr>
+					<tr>
+						<td>Michael Silva</td>
+						<td>Senior Marketing Designer</td>
+						<td>London</td>
+						<td>66</td>
+						<td>2012/11/27</td>
+						<td>$3,750</td>
+					</tr>
+					<tr>
+						<td>Paul Byrd</td>
+						<td>Javascript Developer</td>
+						<td>New York</td>
+						<td>64</td>
+						<td>2010/06/09</td>
+						<td>$5,000</td>
+					</tr>
+					<tr>
+						<td>Gloria Little</td>
+						<td>Systems Administrator</td>
+						<td>New York</td>
+						<td>59</td>
+						<td>2009/04/10</td>
+						<td>$3,120</td>
+					</tr>
+					<tr>
+						<td>Bradley Greer</td>
+						<td>Software Engineer</td>
+						<td>London</td>
+						<td>41</td>
+						<td>2012/10/13</td>
+						<td>$3,120</td>
+					</tr>
+					<tr>
+						<td>Dai Rios</td>
+						<td>System Architect</td>
+						<td>Edinburgh</td>
+						<td>35</td>
+						<td>2012/09/26</td>
+						<td>$4,200</td>
+					</tr>
+					<tr>
+						<td>Jenette Caldwell</td>
+						<td>Financial Controller</td>
+						<td>New York</td>
+						<td>30</td>
+						<td>2011/09/03</td>
+						<td>$4,965</td>
+					</tr>
+					<tr>
+						<td>Yuri Berry</td>
+						<td>System Architect</td>
+						<td>New York</td>
+						<td>40</td>
+						<td>2009/06/25</td>
+						<td>$3,600</td>
+					</tr>
+					<tr>
+						<td>Caesar Vance</td>
+						<td>Technical Author</td>
+						<td>New York</td>
+						<td>21</td>
+						<td>2011/12/12</td>
+						<td>$4,965</td>
+					</tr>
+					<tr>
+						<td>Doris Wilder</td>
+						<td>Sales Assistant</td>
+						<td>Edinburgh</td>
+						<td>23</td>
+						<td>2010/09/20</td>
+						<td>$4,965</td>
+					</tr>
+					<tr>
+						<td>Angelica Ramos</td>
+						<td>System Architect</td>
+						<td>London</td>
+						<td>36</td>
+						<td>2009/10/09</td>
+						<td>$2,875</td>
+					</tr>
+					<tr>
+						<td>Gavin Joyce</td>
+						<td>Developer</td>
+						<td>Edinburgh</td>
+						<td>42</td>
+						<td>2010/12/22</td>
+						<td>$4,525</td>
+					</tr>
+					<tr>
+						<td>Jennifer Chang</td>
+						<td>Regional Director</td>
+						<td>London</td>
+						<td>28</td>
+						<td>2010/11/14</td>
+						<td>$4,080</td>
+					</tr>
+					<tr>
+						<td>Brenden Wagner</td>
+						<td>Software Engineer</td>
+						<td>San Francisco</td>
+						<td>18</td>
+						<td>2011/06/07</td>
+						<td>$3,750</td>
+					</tr>
+					<tr>
+						<td>Ebony Grimes</td>
+						<td>Software Engineer</td>
+						<td>San Francisco</td>
+						<td>48</td>
+						<td>2010/03/11</td>
+						<td>$2,875</td>
+					</tr>
+					<tr>
+						<td>Russell Chavez</td>
+						<td>Director</td>
+						<td>Edinburgh</td>
+						<td>20</td>
+						<td>2011/08/14</td>
+						<td>$3,600</td>
+					</tr>
+					<tr>
+						<td>Michelle House</td>
+						<td>Integration Specialist</td>
+						<td>Edinburgh</td>
+						<td>37</td>
+						<td>2011/06/02</td>
+						<td>$3,750</td>
+					</tr>
+					<tr>
+						<td>Suki Burks</td>
+						<td>Developer</td>
+						<td>London</td>
+						<td>53</td>
+						<td>2009/10/22</td>
+						<td>$2,875</td>
+					</tr>
+					<tr>
+						<td>Prescott Bartlett</td>
+						<td>Technical Author</td>
+						<td>London</td>
+						<td>27</td>
+						<td>2011/05/07</td>
+						<td>$6,730</td>
+					</tr>
+					<tr>
+						<td>Gavin Cortez</td>
+						<td>Technical Author</td>
+						<td>San Francisco</td>
+						<td>22</td>
+						<td>2008/10/26</td>
+						<td>$6,730</td>
+					</tr>
+					<tr>
+						<td>Martena Mccray</td>
+						<td>Integration Specialist</td>
+						<td>Edinburgh</td>
+						<td>46</td>
+						<td>2011/03/09</td>
+						<td>$4,080</td>
+					</tr>
+					<tr>
+						<td>Unity Butler</td>
+						<td>Senior Marketing Designer</td>
+						<td>San Francisco</td>
+						<td>47</td>
+						<td>2009/12/09</td>
+						<td>$3,750</td>
+					</tr>
+					<tr>
+						<td>Howard Hatfield</td>
+						<td>Financial Controller</td>
+						<td>San Francisco</td>
+						<td>51</td>
+						<td>2008/12/16</td>
+						<td>$4,080</td>
+					</tr>
+					<tr>
+						<td>Hope Fuentes</td>
+						<td>Financial Controller</td>
+						<td>San Francisco</td>
+						<td>41</td>
+						<td>2010/02/12</td>
+						<td>$4,200</td>
+					</tr>
+					<tr>
+						<td>Vivian Harrell</td>
+						<td>System Architect</td>
+						<td>San Francisco</td>
+						<td>62</td>
+						<td>2009/02/14</td>
+						<td>$4,965</td>
+					</tr>
+					<tr>
+						<td>Timothy Mooney</td>
+						<td>Financial Controller</td>
+						<td>London</td>
+						<td>37</td>
+						<td>2008/12/11</td>
+						<td>$4,200</td>
+					</tr>
+					<tr>
+						<td>Jackson Bradshaw</td>
+						<td>Director</td>
+						<td>New York</td>
+						<td>65</td>
+						<td>2008/09/26</td>
+						<td>$5,000</td>
+					</tr>
+					<tr>
+						<td>Miriam Weiss</td>
+						<td>Support Engineer</td>
+						<td>Edinburgh</td>
+						<td>64</td>
+						<td>2011/02/03</td>
+						<td>$4,965</td>
+					</tr>
+					<tr>
+						<td>Bruno Nash</td>
+						<td>Software Engineer</td>
+						<td>London</td>
+						<td>38</td>
+						<td>2011/05/03</td>
+						<td>$4,200</td>
+					</tr>
+					<tr>
+						<td>Odessa Jackson</td>
+						<td>Support Engineer</td>
+						<td>Edinburgh</td>
+						<td>37</td>
+						<td>2009/08/19</td>
+						<td>$3,600</td>
+					</tr>
+					<tr>
+						<td>Thor Walton</td>
+						<td>Developer</td>
+						<td>New York</td>
+						<td>61</td>
+						<td>2013/08/11</td>
+						<td>$3,600</td>
+					</tr>
+					<tr>
+						<td>Finn Camacho</td>
+						<td>Support Engineer</td>
+						<td>San Francisco</td>
+						<td>47</td>
+						<td>2009/07/07</td>
+						<td>$4,800</td>
+					</tr>
+					<tr>
+						<td>Elton Baldwin</td>
+						<td>Data Coordinator</td>
+						<td>Edinburgh</td>
+						<td>64</td>
+						<td>2012/04/09</td>
+						<td>$6,730</td>
+					</tr>
+					<tr>
+						<td>Zenaida Frank</td>
+						<td>Software Engineer</td>
+						<td>New York</td>
+						<td>63</td>
+						<td>2010/01/04</td>
+						<td>$4,800</td>
+					</tr>
+					<tr>
+						<td>Zorita Serrano</td>
+						<td>Software Engineer</td>
+						<td>San Francisco</td>
+						<td>56</td>
+						<td>2012/06/01</td>
+						<td>$5,300</td>
+					</tr>
+					<tr>
+						<td>Jennifer Acosta</td>
+						<td>Javascript Developer</td>
+						<td>Edinburgh</td>
+						<td>43</td>
+						<td>2013/02/01</td>
+						<td>$2,875</td>
+					</tr>
+					<tr>
+						<td>Cara Stevens</td>
+						<td>Sales Assistant</td>
+						<td>New York</td>
+						<td>46</td>
+						<td>2011/12/06</td>
+						<td>$4,800</td>
+					</tr>
+					<tr>
+						<td>Hermione Butler</td>
+						<td>Director</td>
+						<td>London</td>
+						<td>47</td>
+						<td>2011/03/21</td>
+						<td>$4,080</td>
+					</tr>
+					<tr>
+						<td>Lael Greer</td>
+						<td>Systems Administrator</td>
+						<td>London</td>
+						<td>21</td>
+						<td>2009/02/27</td>
+						<td>$3,120</td>
+					</tr>
+					<tr>
+						<td>Jonas Alexander</td>
+						<td>Developer</td>
+						<td>San Francisco</td>
+						<td>30</td>
+						<td>2010/07/14</td>
+						<td>$5,300</td>
+					</tr>
+					<tr>
+						<td>Shad Decker</td>
+						<td>Regional Director</td>
+						<td>Edinburgh</td>
+						<td>51</td>
+						<td>2008/11/13</td>
+						<td>$5,300</td>
+					</tr>
+					<tr>
+						<td>Michael Bruce</td>
+						<td>Javascript Developer</td>
+						<td>Edinburgh</td>
+						<td>29</td>
+						<td>2011/06/27</td>
+						<td>$4,080</td>
+					</tr>
+					<tr>
+						<td>Donna Snider</td>
+						<td>System Architect</td>
+						<td>New York</td>
+						<td>27</td>
+						<td>2011/01/25</td>
+						<td>$3,120</td>
+					</tr>
+				</tbody>
+			</table>
+  </div>
+  <div id="three">
+<table data-role="table" id="movie-table" data-mode="reflow" class="ui-responsive">
+  <thead>
+    <tr>
+      <th data-priority="1">Rank</th>
+      <th data-priority="persist">Movie Title</th>
+      <th data-priority="2">Year</th>
+      <th data-priority="3"><abbr title="Rotten Tomato Rating">Rating</abbr></th>
+      <th data-priority="4">Reviews</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td><a href="http://en.wikipedia.org/wiki/Citizen_Kane" data-rel="external">Citizen Kane</a></td>
+      <td>1941</td>
+      <td>100%</td>
+      <td>74</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td><a href="http://en.wikipedia.org/wiki/Casablanca_(film)" data-rel="external">Casablanca</a></td>
+      <td>1942</td>
+      <td>97%</td>
+      <td>64</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td><a href="http://en.wikipedia.org/wiki/The_Godfather" data-rel="external">The Godfather</a></td>
+      <td>1972</td>
+      <td>97%</td>
+      <td>87</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td><a href="http://en.wikipedia.org/wiki/Gone_with_the_Wind_(film)" data-rel="external">Gone with the Wind</a></td>
+      <td>1939</td>
+      <td>96%</td>
+      <td>87</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td><a href="http://en.wikipedia.org/wiki/Lawrence_of_Arabia_(film)" data-rel="external">Lawrence of Arabia</a></td>
+      <td>1962</td>
+      <td>94%</td>
+      <td>87</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td><a href="http://en.wikipedia.org/wiki/Dr._Strangelove" data-rel="external">Dr. Strangelove Or How I Learned to Stop Worrying and Love the Bomb</a></td>
+      <td>1964</td>
+      <td>92%</td>
+      <td>74</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td><a href="http://en.wikipedia.org/wiki/The_Graduate" data-rel="external">The Graduate</a></td>
+      <td>1967</td>
+      <td>91%</td>
+      <td>122</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td><a href="http://en.wikipedia.org/wiki/The_Wizard_of_Oz_(1939_film)" data-rel="external">The Wizard of Oz</a></td>
+      <td>1939</td>
+      <td>90%</td>
+      <td>72</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td><a href="http://en.wikipedia.org/wiki/Singin%27_in_the_Rain" data-rel="external">Singin' in the Rain</a></td>
+      <td>1952</td>
+      <td>89%</td>
+      <td>85</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td class="title"><a href="http://en.wikipedia.org/wiki/Inception" data-rel="external">Inception</a></td>
+      <td>2010</td>
+      <td>84%</td>
+      <td>78</td>
+    </tr>
+  </tbody>
+</table>
+  </div>
+</div>
+  </div>
+  <div data-role="footer" data-position="fixed">
+    <h6>footer</h6>
+  </div>
+</div>
+</body>
+</html>

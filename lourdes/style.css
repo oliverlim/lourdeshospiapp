@@ -1,0 +1,53 @@
+body{font:normal 12px/1.5 arial, verdana;}
+header {text-align:center;padding:10px 0;background:#fff !important}
+.ui-panel{width:280px !important}
+h1{color:#005CAA}
+
+#mainmenu .ui-grid-a a{font-size:11px !important;background:#31AEB4 url(images/button_512x1120.png) no-repeat;display:block;color:#fff;text-shadow:0 0 0;text-decoration:none;height:70px;line-height:70px}
+#mainmenu .ui-grid-a a:hover{background-color:#146B8F;}
+#mainmenu .ui-grid-a div:nth-child(1) a{background-position:0 0}
+#mainmenu .ui-grid-a div:nth-child(1) a:hover{background-position:0 -70px}
+
+#mainmenu .ui-grid-a div:nth-child(2) a{background-position:0 -140px}
+#mainmenu .ui-grid-a div:nth-child(2) a:hover{background-position:0 -210px}
+
+#mainmenu .ui-grid-a div:nth-child(3) a{background-position:0 -280px}
+#mainmenu .ui-grid-a div:nth-child(3) a:hover{background-position:0 -350px}
+
+#mainmenu .ui-grid-a div:nth-child(4) a{background-position:0 -420px}
+#mainmenu .ui-grid-a div:nth-child(4) a:hover{background-position:0 -490px}
+
+#mainmenu .ui-grid-a div:nth-child(5) a{background-position:0 -560px}
+#mainmenu .ui-grid-a div:nth-child(5) a:hover{background-position:0 -630px}
+
+#mainmenu .ui-grid-a div:nth-child(6) a{background-position:0 -700px}
+#mainmenu .ui-grid-a div:nth-child(6) a:hover{background-position:0 -770px}
+
+#mainmenu .ui-grid-a div:nth-child(7) a{background-position:0 -840px}
+#mainmenu .ui-grid-a div:nth-child(7) a:hover{background-position:0 -910px}
+
+#mainmenu .ui-grid-a div:nth-child(8) a{background-position:0 -980px}
+#mainmenu .ui-grid-a div:nth-child(8) a:hover{background-position:0 -1050px}
+
+strong{color:#005CAC}
+ul ul{padding:0 0 0 10px}
+footer {text-align:center}
+footer a{padding:0 !important}
+footer img {display:block; width:36px;}
+
+#branding{background:#fff url(images/ollh.png) no-repeat center bottom;height:70px;width:100%;text-indent:-9999px}
+
+@media (max-width: 767px) {
+#mainmenu .ui-grid-a a{font-size:12px !important;text-indent:30px}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+#mainmenu .ui-grid-a a{font-size:13px !important;text-align:center}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+#mainmenu .ui-grid-a a{font-size:14px !important;text-align:center}
+}
+@media (min-width: 1200px) {
+#mainmenu .ui-grid-a a{font-size:14px !important;text-align:center}
+}
+
+
